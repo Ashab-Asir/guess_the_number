@@ -1,0 +1,43 @@
+@media (max-width:47em){
+    html{
+        font-size: 56%;
+    }
+}
+@media (max-width:41em){
+    html{
+        font-size: 50%;
+    }
+}
+@media(max-width:35em){
+    html{
+        font-size: 43%;
+    }
+}
+@media(max-width:30em){
+    html{
+        font-size: 37.5%;
+    }
+    main{
+        height: 37vh;
+    }
+}
+@media(max-width:27em){
+   
+    main{
+        flex-direction: column;
+        margin-top: 12rem;
+        text-align: center;
+        row-gap: 7rem;
+    }
+    .message {
+        margin-bottom: 4rem;}
+        h1{
+            font-size: 3rem;
+        }
+}
+@media(max-width:18em){
+    html{
+        font-size: 31%;
+    }
+   
+}
